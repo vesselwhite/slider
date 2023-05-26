@@ -1,0 +1,116 @@
+body{
+    margin: 0 auto;
+    max-width: 1440px;
+    background-color: #131313;
+    box-sizing: border-box;
+}
+
+.section-projects{
+    width: 100%;
+    height: 80vh;
+    margin: 10vh auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-info__title{
+    padding-top: 75px;
+    font-style:normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.project-info__text{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.project-characterstics{
+    display: flex;
+    flex-wrap: wrap;
+    height: 30%;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.project-characterstics__details{
+    height: 25%;
+    width: 50%;
+}
+
+.project-characterstics__title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.project-characterstics__subtitle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.project-content{
+    width: 50%;
+}
+
+.project-content__subtitle-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-content__subtitle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.project-content__subtitle:hover{
+    color: #E3B873;
+    border-bottom: 1px solid #E3B873;
+    margin-bottom: -1px;
+}
+
+.slaider{
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.slide{
+    width: 30px;
+    margin: 5px;
+}
+
+.slaider__dot:hover{
+    color: white;
+}
+
+.slaider__previos:hover, .slaider__next:hover{
+    color: white;
+}
+
+.project-content__img{
+    padding: 25px;
+    display: none;
+    padding-top: 50px ;
+}
+
+.active{
+    display: inline-block;
+}
